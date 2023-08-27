@@ -4,7 +4,7 @@ class Bot{
 #ul = document.querySelector("ul");
 #messages
 #API = "https://api.openai.com/v1/chat/completions";
-#API_KEY = "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";
+#API_KEY = "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";
 #TIME = 500;
 constructor(){
   this._removePreloader()
