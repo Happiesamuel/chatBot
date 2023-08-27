@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <script defer src="script.js"></script>
+    <script defer src="https://kit.fontawesome.com/056acc338c.js" crossorigin="anonymous"></script>
+    <script defer async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
+    <title>chatBot</title>
+</head>
+<body>
+    <div class="pre">
+
+  <svg viewBox="0 0 1350 600">
+    <text x="50%" y="50%" fill="transparent" text-anchor="middle">
+        Hs Bot
+    </text>
+  </svg>
+</div>
+<h1>
+    <span style="color:#724ae8;" class="typer" id="main" data-words="Start a conversation,Ask a question,Educate yourself,Talk to a bot,Learn from bot" data-delay="100" data-deleteDelay="1000"></span>
+    <span class="cursor" data-owner="main"></span>
+  </h1>
+  
+    <div class="total__body none">
+        <div class="head">Hs B<span class="fa fa-robot"></span>T</div>
+        <ul></ul>
+        <form class="form">
+            <textarea class="query" placeholder="Enter a message..." required></textarea>
+            <div class="sending">
+<div class="send fa fa-paper-plane"></div>
+            </div>
+        </form>
+    </div>
+    <div class="show__chat animate__animated animate__bounce animate__infinite	infinite  animate__slower 3s">
+        <div class="chats"></div>
+    </div>
+</body>
+</html>
